@@ -1,0 +1,7 @@
+# Crawlers only read robots.txt at the HOST ROOT, so this file (served by the
+# kylechoi101.github.io user Pages site) is what governs crawling for every
+# project site on this host, including /surf-health (Shorelife).
+User-agent: *
+Allow: /
+
+Sitemap: https://kylechoi101.github.io/surf-health/sitemap.xml
