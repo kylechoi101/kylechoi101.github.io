@@ -1,7 +1,8 @@
 # Crawlers only read robots.txt at the HOST ROOT, so this file (served by the
-# kylechoi101.github.io user Pages site) is what governs crawling for every
-# project site on this host, including /surf-health (Shorelife).
+# kylechoi101.github.io user Pages site) governs crawling for every project
+# site on this host. Shorelife moved to https://shorelifeca.org on 2026-10-07;
+# its old /surf-health/* URLs 301 there.
 User-agent: *
 Allow: /
 
-Sitemap: https://kylechoi101.github.io/surf-health/sitemap.xml
+Sitemap: https://shorelifeca.org/sitemap.xml
